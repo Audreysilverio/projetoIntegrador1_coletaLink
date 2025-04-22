@@ -1,0 +1,108 @@
+.doar-container {
+    max-width: 520px;
+    margin: 40px auto;
+    padding: 30px 25px;
+    background: linear-gradient(145deg, #141414, #1f1f1f);
+    border-radius: 16px;
+    color: #fff;
+    box-shadow: 0 0 15px #39ff14a0;
+    transition: transform 0.3s ease;
+  
+    &:hover {
+      transform: scale(1.01);
+    }
+  
+    h2 {
+      text-align: center;
+      color: #39ff14;
+      margin-bottom: 30px;
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+  }
+  
+  .doar-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  
+    label {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 500;
+      color: #cfcfcf;
+      font-size: 0.95rem;
+    }
+  
+    input {
+      padding: 12px;
+      border-radius: 8px;
+      border: none;
+      font-size: 1rem;
+      background-color: #2b2b2b;
+      color: #fff;
+      outline: 2px solid transparent;
+      transition: 0.2s ease-in-out;
+  
+      &:focus {
+        outline: 2px solid #39ff14;
+        background-color: #333;
+      }
+    }
+  
+    .radio-group {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+  
+      label {
+        flex: 1;
+        font-weight: 500;
+        cursor: pointer;
+  
+        input {
+          margin-right: 8px;
+          accent-color: #39ff14;
+        }
+      }
+    }
+  
+    .btn {
+      background-color: #39ff14;
+      color: #000;
+      border: none;
+      padding: 12px;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s ease;
+  
+      &:hover {
+        background-color: #2ecc71;
+      }
+    }
+  
+    .mensagem {
+      margin-top: 20px;
+      color: #39ff14;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.95rem;
+    }
+  }
+  
+  @media (max-width: 540px) {
+    .doar-container {
+      margin: 20px;
+      padding: 20px;
+    }
+  
+    .doar-form .radio-group {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+   

@@ -1,0 +1,61 @@
+.QuemSomos {
+    padding: 2rem;
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .texto {
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    text-align: justify;
+  
+    @media (max-width: 768px) {
+      padding: 0 1rem;
+      font-size: 1rem;
+    }
+  }
+  
+  .containerCards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    width: 100%;
+    max-width: 1000px;
+  }
+  
+  .containerCards section {
+    flex: 1 1 200px;
+    max-width: 250px;
+    text-align: center;
+  }
+  
+  .containerCards img {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #2ecc71; /* verde limão */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .containerCards img:hover {
+    transform: scale(1.05);
+  }
+  
+  @media (max-width: 480px) {
+    .containerCards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .containerCards section {
+      max-width: 90%;
+    }
+  }
+  

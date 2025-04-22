@@ -1,0 +1,23 @@
+.mapa-container {
+    height: 500px;
+    border: 2px solid #00ff55;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 30px auto;
+  }
+  
+  .filtros-mapa {
+    margin: 20px 0;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .filtros-mapa label {
+    background-color: #111;
+    color: #00ff55;
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #00ff55;
+    cursor: pointer;
+  }
