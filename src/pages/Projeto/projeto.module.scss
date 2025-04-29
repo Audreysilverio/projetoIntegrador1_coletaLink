@@ -1,17 +1,67 @@
-.projeto-container {
-    padding: 30px;
-    background-color: #1a1a1a;
-    border-radius: 10px;
-    border: 1px solid #00ff55;
-  }
-  
-  .projeto-container p {
-    margin-bottom: 15px;
-    line-height: 1.6;
-    color: #ccffcc;
-  }
-  
-  .projeto-container h2 {
-    color: #00ff55;
-    margin-bottom: 20px;
-  }
+:root {
+  --green-neon: #39ff14;
+  --dark-bg: #1e1e1e;
+  --cement-gray: #2b2b2b;
+  --text-light: #e0e0e0;
+  --cement-gradient: linear-gradient(135deg, #1f1f1f, #2e2e2e, #1f1f1f);
+  --green-gradient: linear-gradient(90deg, #39ff14, #00cc66);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.projetoContainer {
+  padding: 2rem;
+  background-color: #f4f4f4;
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projetoImagem{
+  width: 100%; /* Faz a imagem ocupar toda a largura disponível */
+  max-width: 600px; /* Limita a largura da imagem */
+  height: auto; /* Mantém a proporção da imagem */
+  border-radius: 8px; /* Arredonda as bordas da imagem, se necessário */
+  display: block; /* Remove o espaço abaixo da imagem */
+  margin: 20px 0; /* Espaçamento superior e inferior */
+  object-fit: cover; /* Faz a imagem preencher o espaço sem distorcer */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra */
+}
+
+.projetoTitulo {
+  font-size: 2.5rem;
+  color: var(--green-neon);
+  margin-bottom: 2rem;
+}
+
+.projetoTexto {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  color: #333;
+  max-width: 800px;
+  text-align: justify;
+}
+
+.projetoLista{
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  color: #333;
+  max-width: 800px;
+  text-align: justify;
+}
+
+.projetoFraseFinal {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: var(--green-neon);
+  margin-top: 3rem;
+}
