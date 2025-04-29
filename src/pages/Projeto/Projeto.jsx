@@ -6,7 +6,8 @@ function Projeto() {
     <div className={styles.projetoContainer}>
       <h2 className={styles.projetoTitulo}>O Projeto ColetaLink</h2>
 
-      <img src="/src/assets/reciclagemColetaLink.png" alt="Reciclagem ColetaLink" className={styles.projetoImagem} />
+      <img src="./src/assets/reciclagemColetaLink.png" alt="Reciclagem ColetaLink" className={styles.projetoImagem} />
+
       <p className={styles.projetoTexto}>
         O <strong>ColetaLink</strong> é uma solução digital criada para facilitar o descarte sustentável de resíduos sólidos, 
         conectando a população local a catadores e cooperativas de reciclagem. Nosso projeto nasceu da necessidade observada 
